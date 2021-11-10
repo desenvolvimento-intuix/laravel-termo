@@ -1,0 +1,33 @@
+{
+    "name": "intuix/laravel-termo",
+    "version": "dev-master",
+    "description": "Laravel package",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Rafael Zingano",
+            "email": "confrariaweb@gmail.com"
+        }
+    ],
+    "require": {
+        "simplesoftwareio/simple-qrcode": "~4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Intuix\\Termo\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Intuix\\Termo\\Providers\\TermoServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
