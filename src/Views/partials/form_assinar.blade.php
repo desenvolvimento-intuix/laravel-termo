@@ -11,6 +11,10 @@
                 <label>Seu Email</label>
                 <input type="email" name="email" class="form-control" required>
             </div>
+            <div class="form-group">
+                <label>Seu Telefone</label>
+                <input type="text" name="telefone" class="form-control" required>
+            </div>
             <button type="submit" class="btn btn-success"><i class="cui-check mr-2"></i>Salvar</button>
         </div>
     </div>

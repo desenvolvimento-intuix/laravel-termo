@@ -9,7 +9,7 @@ class TermoAceite extends Model
     
     protected $table = 'termo_aceites';
 
-    protected $fillable = ['cliente_id', 'termo_id', 'nome', 'email'];
+    protected $fillable = ['cliente_id', 'termo_id', 'nome', 'email', 'telefone'];
 
 
 }
